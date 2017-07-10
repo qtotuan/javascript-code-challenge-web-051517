@@ -8,24 +8,25 @@
   <body>
 
     <form id="note-form">
-      <input type='text' />
-      <input type='submit' />
+      <input type='text' id="comment"/>
+      <input type='submit' id="comment-button"/>
     </form>
 
 
     <form id="search-form">
-      <input type='text' />
-      <input type='submit' value =" Filter " />
+      <input type='text' id="search-term"/>
+      <input type='submit' value =" Filter " id="search-button"/>
     </form>
 
-    <div>
-      <ul id="comments-list">
+    <div id="comments-list"></div>
 
-      </ul>
+    <div>
+      <a href="#" id="remove-filter">Remove Filter</a>
     </div>
 
     <script type="text/javascript" src='src/CommentList.js'></script>
     <script type="text/javascript" src='src/Comment.js'></script>
     <script type="text/javascript" src='src/index.js'></script>
+    <script type="text/javascript" src='src/solution.js'></script>
   </body>
 </html>
